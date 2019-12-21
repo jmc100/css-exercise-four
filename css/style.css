@@ -1,4 +1,55 @@
 body {
-  background-color: #dadada;
-  font-size: 10px;
+  background-color: #DADADA;
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+div {
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+  width: 100% border-box;
+  justify-content: center;
+}
+
+.emphasis {
+  font-family: Sans-Serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.location_img {
+  width: 100%;
+  height: 230px;
+}
+
+.preview {
+  position: relative;
+  width: 100% border-box;
+}
+
+.title {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+@media screen and (min-width: 575px){
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+  div {
+    margin: 2%;
+    width: 20%;
+  }
 }
