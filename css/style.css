@@ -11,7 +11,7 @@ div {
   display: block;
   float: left;
   margin-bottom: 15px;
-  width: 100% border-box;
+  width: 100%;
   justify-content: center;
 }
 
@@ -31,7 +31,7 @@ div {
 
 .preview {
   position: relative;
-  width: 100% border-box;
+  width: 100%;
 }
 
 .title {
