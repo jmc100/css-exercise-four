@@ -6,14 +6,15 @@ body {
 /* adjust box-sizing for all content */
 *::before, *::after { box-sizing: border-box; }
 
-h1 {
-  font-weight: normal;
-}
-
 div {
   display: block;
   float: left;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-weight: normal;
 }
 
 .emphasis {
@@ -25,13 +26,44 @@ div {
   text-transform: uppercase;
 }
 
-.location_img {
-  width: 100%;
-  height: 230px;
+.preview {
+  position: absolute;
 }
 
-.preview {
+.baku {
+  background-image: url("images/baku.jpg");
+  width: 100%;
+  height: 230px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: 320px 230px;
+}
+
+.london {
+  background-image: url("images/london.png");
+  width: 100%;
+  height: 230px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 320px 230px;
+}
+
+.madrid {
+  background-image: url("images/madrid.jpg");
+  width: 320px;
+  height: 230px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 320px 230px;
+}
+
+.rome {
+  background-image: url("images/rome.jpg");
+  width: 100%;
+  height: 230px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 320px 230px;
 }
 
 .title {
@@ -41,14 +73,14 @@ div {
 }
 
 @media screen and (min-width: 575px){
-  div {
+  div.preview {
     margin: 1%;
     width: 48%;
   }
 }
 
 @media screen and (min-width: 991px){
-  div {
+  div.preview {
     margin: 2%;
     width: 20%;
   }
